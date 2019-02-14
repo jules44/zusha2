@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnorder"
+        android:layout_width="112dp"
+        android:layout_height="104dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/ic_remove_circle_outline_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnorder"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:text="Order signs"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnwarning"
+        android:layout_width="102dp"
+        android:layout_height="106dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:background="@drawable/ic_warning_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="-3dp"
+        android:text="Warning Signs"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btndirection"
+        android:layout_width="102dp"
+        android:layout_height="87dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+
+        android:layout_marginTop="221dp"
+        android:background="@drawable/ic_directions_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_below="@+id/btndirection"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="174dp"
+        android:text="Direction Signs"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnroadworks"
+        android:layout_width="99dp"
+        android:layout_height="68dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/btndirection"
+
+        android:layout_alignLeft="@+id/btndirection"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="-172dp"
+        android:background="@drawable/ic_rowing_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnroadworks"
+        android:textSize="20sp"
+        android:text="Road works signs" />
+
+    <Button
+        android:id="@+id/btninformation"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="221dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:background="@drawable/ic_local_parking_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btninformation"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Information Signs"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
